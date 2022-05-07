@@ -3,5 +3,6 @@ class Book < ApplicationRecord
 
     ransacker :status, formatter: proc {|v| statuses[v]} do |parent|
         parent.table[:status]
-    end
+      end
 end
+

@@ -3,15 +3,15 @@
 one:
   title: MyString
   author: MyString
-  status: MyString
-  borrow_date: MyString
-  return_date: MyString
+  status: 1
+  borrow_date: 2022-05-06
+  return_date: 2022-05-06
   friend: MyString
 
 two:
   title: MyString
   author: MyString
-  status: MyString
-  borrow_date: MyString
-  return_date: MyString
+  status: 1
+  borrow_date: 2022-05-06
+  return_date: 2022-05-06
   friend: MyString

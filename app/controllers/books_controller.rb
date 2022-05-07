@@ -15,8 +15,7 @@ class BooksController < ApplicationController
                 format.html { redirect_to root_path, notice: "se creo el libro"}
             else
                 format.html { render new, status: :unprocessable_entity}
-        
-            
+                 
             end
         end
     end
@@ -36,8 +35,7 @@ class BooksController < ApplicationController
                 format.html { redirect_to root_path, notice: "se modificó el libro"}
             else
                 format.html { render :edit, status: :unprocessable_entity}
-
-            
+                        
             end
         end
     end

@@ -10,16 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_05_06_221800) do
+ActiveRecord::Schema[7.0].define(version: 2022_05_07_010400) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "books", force: :cascade do |t|
     t.string "title"
     t.string "author"
-    t.string "status"
-    t.string "borrow_date"
-    t.string "return_date"
+    t.integer "status"
+    t.date "borrow_date"
+    t.date "return_date"
     t.string "friend"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

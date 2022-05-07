@@ -3,9 +3,9 @@ class CreateBooks < ActiveRecord::Migration[7.0]
     create_table :books do |t|
       t.string :title
       t.string :author
-      t.string :status
-      t.string :borrow_date
-      t.string :return_date
+      t.integer :status
+      t.date :borrow_date
+      t.date :return_date
       t.string :friend
 
       t.timestamps
